@@ -1,9 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Notes (Kotlin)</string>
     <string name="btn_add_note_text">Create note</string>
     <string name="start_label">Where the notes will be stored</string>
     <string name="btn_room_text">This phone (Room)</string>
-    <string name="btn_firebase_text">Cloud (Firebase)</string>
     <string name="app_cersion">1</string>
     <string name="name_note_hint">Name note</string>
     <string name="text_note_hint">Text note</string>

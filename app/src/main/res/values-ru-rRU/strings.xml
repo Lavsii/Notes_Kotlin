@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Заметки (Kotlin)</string>
+    <string name="btn_add_note_text">Создать заметку</string>
+    <string name="start_label">Где будут храниться заметки</string>
+    <string name="btn_room_text">Этот телефон (Room)</string>
+    <string name="btn_firebase_text">В облаке (Firebase)</string>
+    <string name="app_cersion">1</string>
+    <string name="name_note_hint">Название заметки</string>
+    <string name="text_note_hint">Текст заметки</string>
+</resources>

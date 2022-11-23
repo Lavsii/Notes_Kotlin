@@ -3,11 +3,11 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/navigation_graph"
-    app:startDestination="@id/addNewNoteFragment">
+    app:startDestination="@id/startFragment">
 
     <fragment
         android:id="@+id/addNewNoteFragment"
-        android:name="com.lavsii.noteskotlin.screens.AddNewNoteFragment"
+        android:name="com.lavsii.noteskotlin.screens.add_new_note.AddNewNoteFragment"
         android:label="fragment_add_new_note"
         tools:layout="@layout/fragment_add_new_note">
         <action
@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/mainFragment"
-        android:name="com.lavsii.noteskotlin.screens.MainFragment"
+        android:name="com.lavsii.noteskotlin.screens.main.MainFragment"
         android:label="fragment_main"
         tools:layout="@layout/fragment_main">
         <action
@@ -31,7 +31,7 @@
     </fragment>
     <fragment
         android:id="@+id/noteFragment"
-        android:name="com.lavsii.noteskotlin.screens.NoteFragment"
+        android:name="com.lavsii.noteskotlin.screens.note.NoteFragment"
         android:label="fragment_note"
         tools:layout="@layout/fragment_note">
         <action
@@ -40,7 +40,7 @@
     </fragment>
     <fragment
         android:id="@+id/startFragment"
-        android:name="com.lavsii.noteskotlin.screens.StartFragment"
+        android:name="com.lavsii.noteskotlin.screens.start.StartFragment"
         android:label="fragment_start"
         tools:layout="@layout/fragment_start">
         <action
